@@ -30,8 +30,8 @@ public class PessoaJuridicaDAO {
         PessoaJuridica pj = null;
         String sql_statement = 
                 "SELECT * FROM dbo.Pessoa p " +
-                "INNER JOIN dbo.PessoaJuridica pj ON (p.idPessoa = pj.idPessoa) " +
-                "WHERE idPessoa = ?";
+                "INNER JOIN dbo.Pessoa_Juridica pj ON (p.idPessoa = pj.idPessoa) " +
+                "WHERE p.idPessoa = ?";
 
         try (Connection connection = conector.getConnection();
              PreparedStatement ps = conector.getPrepared(connection, sql_statement)) {
@@ -53,7 +53,7 @@ public class PessoaJuridicaDAO {
         List<PessoaJuridica> lista_pj = new ArrayList<>();
         String sql_statement =
                 "SELECT * FROM dbo.Pessoa p " +
-                "INNER JOIN dbo.PessoaJuridica pj ON (p.idPessoa = pj.idPessoa)";
+                "INNER JOIN dbo.Pessoa_Juridica pj ON (p.idPessoa = pj.idPessoa)";
 
         try (Connection connection = conector.getConnection();
              PreparedStatement ps = conector.getPrepared(connection, sql_statement)) {

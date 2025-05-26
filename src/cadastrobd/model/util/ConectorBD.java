@@ -21,11 +21,15 @@ public class ConectorBD {
     // Atributos
     protected String driver_class_name;
     protected String connection_url;
+    protected String user;
+    protected String password;
 
     // Métodos construtores padrão e completo, respectivamente
     public ConectorBD() {
         this.driver_class_name = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
         this.connection_url = "jdbc:sqlserver://localhost:1433;databaseName=loja;encrypt=true;trustServerCertificate=true";
+        this.user = "loja";
+        this.password = "loja";
     }
     public ConectorBD(String driver_class_name, String connection_url) {
         this.driver_class_name = driver_class_name;
@@ -36,7 +40,7 @@ public class ConectorBD {
     // e para obter os resultados uma "query" (i.e., uma busca)
     public Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName(this.driver_class_name);
-        return DriverManager.getConnection(this.connection_url);
+        return DriverManager.getConnection(this.connection_url, this.user, this.password);
     }
     public Statement getStatement(Connection conn) throws ClassNotFoundException, SQLException {
         return conn.createStatement();
