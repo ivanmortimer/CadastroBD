@@ -83,12 +83,26 @@ public class PessoaFisicaDAO {
                 ps.setString(5, pf.getEstado());
                 ps.setString(6, pf.getTelefone());
                 ps.setString(7, pf.getEmail());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
             try (PreparedStatement ps = conector.getPrepared(connection, sql_statement_2)) { 
                 ps.setInt(1, pf.getId());
                 ps.setString(2, pf.getCPF());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
         }
     }
@@ -109,12 +123,26 @@ public class PessoaFisicaDAO {
                 ps.setString(5, pf.getTelefone());
                 ps.setString(6, pf.getEmail());
                 ps.setInt(7, pf.getId());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
             try (PreparedStatement ps = conector.getPrepared(connection, sql_statement_2)) { 
                 ps.setString(1, pf.getCPF());
                 ps.setInt(2, pf.getId());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
         }
     }
@@ -125,11 +153,25 @@ public class PessoaFisicaDAO {
         try (Connection connection = conector.getConnection()) {
             try (PreparedStatement ps = conector.getPrepared(connection, sql_statement_1)) {
                 ps.setInt(1, pf.getId());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
             try (PreparedStatement ps = conector.getPrepared(connection, sql_statement_2)) {
                 ps.setInt(1, pf.getId());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
         }
     }

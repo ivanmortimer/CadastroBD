@@ -83,12 +83,26 @@ public class PessoaJuridicaDAO {
                 ps.setString(5, pj.getEstado());
                 ps.setString(6, pj.getTelefone());
                 ps.setString(7, pj.getEmail());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
             try (PreparedStatement ps = conector.getPrepared(connection, sql_statement_2)) { 
                 ps.setInt(1, pj.getId());
                 ps.setString(2, pj.getCNPJ());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
         }
     }
@@ -109,12 +123,26 @@ public class PessoaJuridicaDAO {
                 ps.setString(5, pj.getTelefone());
                 ps.setString(6, pj.getEmail());
                 ps.setInt(7, pj.getId());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
             try (PreparedStatement ps = conector.getPrepared(connection, sql_statement_2)) {
                 ps.setString(1, pj.getCNPJ());
                 ps.setInt(2, pj.getId());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
         }
     }
@@ -125,11 +153,25 @@ public class PessoaJuridicaDAO {
         try (Connection connection = conector.getConnection()) {
             try (PreparedStatement ps = conector.getPrepared(connection, sql1)) {
                 ps.setInt(1, pj.getId());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
             try (PreparedStatement ps = conector.getPrepared(connection, sql2)) {
                 ps.setInt(1, pj.getId());
-                ps.executeUpdate();
+                connection.setAutoCommit(false);
+                try {
+                    ps.executeUpdate();
+                    connection.commit();
+                } catch (SQLException ex) {
+                    connection.rollback();
+                    throw ex;
+                }
             }
         }
     }

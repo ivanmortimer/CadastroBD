@@ -1,0 +1,924 @@
+run:
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 1
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa ou digite 0 se deseja que a id seja inserida automaticamente: 0
+Insira o restante dos dados...
+CPF: 987654321
+Nome: João Grilo
+Logradouro: Rua 20, casa 10, Palmital
+Cidade: Lagoa Santa
+Estado: MG
+Telefone: 1234-1234
+Email: joaogrilo@lagoasanta.com
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Id: 7
+CPF: 11111111111
+Nome: Joao
+Logradouro: Rua 12, casa 3, Quitanda
+Cidade: Riacho do Sul
+Estado: PA
+Telefone: 1111-1111  
+Email: joao@riacho.com
+================================
+
+Id: 18
+CPF: 987654321  
+Nome: João Grilo
+Logradouro: Rua 20, casa 10, Palmital
+Cidade: Lagoa Santa
+Estado: MG
+Telefone: 1234-1234  
+Email: joaogrilo@lagoasanta.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 1
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa ou digite 0 se deseja que a id seja inserida automaticamente: 7
+Erro ao incluir Pessoa Física: A 'id' inserida já se encontra presente na atual lista de Pessoas Físicas.
+Por favor escolher uma 'id' diferente, ou antes alterar a 'id' já existente.
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 1
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa ou digite 0 se deseja que a id seja inserida automaticamente: 8
+Insira o restante dos dados...
+CPF: 111222333
+Nome: Chicó
+Logradouro: Rua 21, casa 11, Pinhões
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 1111-2222
+Email: chico@santaluzia.com
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Id: 7
+CPF: 11111111111
+Nome: Joao
+Logradouro: Rua 12, casa 3, Quitanda
+Cidade: Riacho do Sul
+Estado: PA
+Telefone: 1111-1111  
+Email: joao@riacho.com
+================================
+
+Id: 8
+CPF: 111222333  
+Nome: Chicó
+Logradouro: Rua 21, casa 11, Pinhões
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 1111-2222  
+Email: chico@santaluzia.com
+================================
+
+Id: 18
+CPF: 987654321  
+Nome: João Grilo
+Logradouro: Rua 20, casa 10, Palmital
+Cidade: Lagoa Santa
+Estado: MG
+Telefone: 1234-1234  
+Email: joaogrilo@lagoasanta.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 4
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa: 8
+Id: 8
+CPF: 111222333  
+Nome: Chicó
+Logradouro: Rua 21, casa 11, Pinhões
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 1111-2222  
+Email: chico@santaluzia.com
+================================
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 4
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa: 2
+Erro ao buscar pessoa: Pessoa física com id 2 não encontrada.
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 2
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa: 8
+Id: 8
+CPF: 111222333  
+Nome: Chicó
+Logradouro: Rua 21, casa 11, Pinhões
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 1111-2222  
+Email: chico@santaluzia.com
+================================
+Digite os novos dados...
+CPF: 111222333
+Nome: Chicó
+Logradouro: Rua 22, casa 12, Engenho
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 2222-3333
+Email: chico02@santaluzia.com
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 4
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa: 8
+Id: 8
+CPF: 111222333  
+Nome: Chicó
+Logradouro: Rua 22, casa 12, Engenho
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 2222-3333  
+Email: chico02@santaluzia.com
+================================
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Id: 7
+CPF: 11111111111
+Nome: Joao
+Logradouro: Rua 12, casa 3, Quitanda
+Cidade: Riacho do Sul
+Estado: PA
+Telefone: 1111-1111  
+Email: joao@riacho.com
+================================
+
+Id: 8
+CPF: 111222333  
+Nome: Chicó
+Logradouro: Rua 22, casa 12, Engenho
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 2222-3333  
+Email: chico02@santaluzia.com
+================================
+
+Id: 18
+CPF: 987654321  
+Nome: João Grilo
+Logradouro: Rua 20, casa 10, Palmital
+Cidade: Lagoa Santa
+Estado: MG
+Telefone: 1234-1234  
+Email: joaogrilo@lagoasanta.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 1
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa ou digite 0 se deseja que a id seja inserida automaticamente: 9
+Insira o restante dos dados...
+CPF: 333444555
+Nome: Maria das Graças
+Logradouro: Rua 33, casa 11, Centro
+Cidade: Belém
+Estado: PA
+Telefone: 3300-3300
+Email: maria_das_gracas@belem.com
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Id: 7
+CPF: 11111111111
+Nome: Joao
+Logradouro: Rua 12, casa 3, Quitanda
+Cidade: Riacho do Sul
+Estado: PA
+Telefone: 1111-1111  
+Email: joao@riacho.com
+================================
+
+Id: 8
+CPF: 111222333  
+Nome: Chicó
+Logradouro: Rua 22, casa 12, Engenho
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 2222-3333  
+Email: chico02@santaluzia.com
+================================
+
+Id: 9
+CPF: 333444555  
+Nome: Maria das Graças
+Logradouro: Rua 33, casa 11, Centro
+Cidade: Belém
+Estado: PA
+Telefone: 3300-3300  
+Email: maria_das_gracas@belem.com
+================================
+
+Id: 18
+CPF: 987654321  
+Nome: João Grilo
+Logradouro: Rua 20, casa 10, Palmital
+Cidade: Lagoa Santa
+Estado: MG
+Telefone: 1234-1234  
+Email: joaogrilo@lagoasanta.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 1
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa ou digite 0 se deseja que a id seja inserida automaticamente: 0
+Insira o restante dos dados...
+CPF: José Silva
+Nome: Zé da Silva
+Logradouro: Rua 2, casa 1, Centro
+Cidade: Perdões
+Estado: MG
+Telefone: 5555-6666
+Email: ze_da_silva@perdoes.com
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Id: 7
+CPF: 11111111111
+Nome: Joao
+Logradouro: Rua 12, casa 3, Quitanda
+Cidade: Riacho do Sul
+Estado: PA
+Telefone: 1111-1111  
+Email: joao@riacho.com
+================================
+
+Id: 8
+CPF: 111222333  
+Nome: Chicó
+Logradouro: Rua 22, casa 12, Engenho
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 2222-3333  
+Email: chico02@santaluzia.com
+================================
+
+Id: 9
+CPF: 333444555  
+Nome: Maria das Graças
+Logradouro: Rua 33, casa 11, Centro
+Cidade: Belém
+Estado: PA
+Telefone: 3300-3300  
+Email: maria_das_gracas@belem.com
+================================
+
+Id: 18
+CPF: 987654321  
+Nome: João Grilo
+Logradouro: Rua 20, casa 10, Palmital
+Cidade: Lagoa Santa
+Estado: MG
+Telefone: 1234-1234  
+Email: joaogrilo@lagoasanta.com
+================================
+
+Id: 19
+CPF: José Silva 
+Nome: Zé da Silva
+Logradouro: Rua 2, casa 1, Centro
+Cidade: Perdões
+Estado: MG
+Telefone: 5555-6666  
+Email: ze_da_silva@perdoes.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 3
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa: 19
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Id: 7
+CPF: 11111111111
+Nome: Joao
+Logradouro: Rua 12, casa 3, Quitanda
+Cidade: Riacho do Sul
+Estado: PA
+Telefone: 1111-1111  
+Email: joao@riacho.com
+================================
+
+Id: 8
+CPF: 111222333  
+Nome: Chicó
+Logradouro: Rua 22, casa 12, Engenho
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 2222-3333  
+Email: chico02@santaluzia.com
+================================
+
+Id: 9
+CPF: 333444555  
+Nome: Maria das Graças
+Logradouro: Rua 33, casa 11, Centro
+Cidade: Belém
+Estado: PA
+Telefone: 3300-3300  
+Email: maria_das_gracas@belem.com
+================================
+
+Id: 18
+CPF: 987654321  
+Nome: João Grilo
+Logradouro: Rua 20, casa 10, Palmital
+Cidade: Lagoa Santa
+Estado: MG
+Telefone: 1234-1234  
+Email: joaogrilo@lagoasanta.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 1
+F - Pessoa Física | J - Pessoa Jurídica
+J
+Digite o id da pessoa ou digite 0 se deseja que a id seja inserida automaticamente: 0
+Insira o restante dos dados...
+CNPJ: 11112222333344
+Nome: Companhia da Madeira
+Logradouro: Rua 15, prédio 7, Sapucaeira
+Cidade: Eunápolis
+Estado: BA
+Telefone: 7777-8888
+Email: companhia_da_madeira@eunapolis.com
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Id: 20
+CNPJ: 11112222333344
+Nome: Companhia da Madeira
+Logradouro: Rua 15, prédio 7, Sapucaeira
+Cidade: Eunápolis
+Estado: BA
+Telefone: 7777-8888  
+Email: companhia_da_madeira@eunapolis.com
+================================
+
+Id: 15
+CNPJ: 22222222222222
+Nome: JJC
+Logradouro: Rua 11, Centro
+Cidade: Riacho do Norte
+Estado: PA
+Telefone: 1212-1212  
+Email: jjc@riacho.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 1
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Digite o id da pessoa ou digite 0 se deseja que a id seja inserida automaticamente: 14
+Insira o restante dos dados...
+CNPJ: 22233344455566
+Nome: Companhia do Ferro
+Logradouro: Rua 13, prédio 31, São José
+Cidade: Itabirito
+Estado: MG
+Telefone: 9898-7777
+Email: companhiadoferro@itabirito.com
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 4
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Digite o id da pessoa: 14
+Id: 14
+CNPJ: 22233344455566
+Nome: Companhia do Ferro
+Logradouro: Rua 13, prédio 31, São José
+Cidade: Itabirito
+Estado: MG
+Telefone: 9898-7777  
+Email: companhiadoferro@itabirito.com
+================================
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 2
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Digite o id da pessoa: 14
+Id: 14
+CNPJ: 22233344455566
+Nome: Companhia do Ferro
+Logradouro: Rua 13, prédio 31, São José
+Cidade: Itabirito
+Estado: MG
+Telefone: 9898-7777  
+Email: companhiadoferro@itabirito.com
+================================
+Digite os novos dados...
+CNPJ: 22233344455566
+Nome: Companhia do Ferro
+Logradouro: Rua 22, prédio 44, Cardoso
+Cidade: Itabirito
+Estado: 8989-6666
+Telefone: 2
+Email: 2
+Erro ao alterar dados: String or binary data would be truncated in table 'loja.dbo.Pessoa', column 'estado'. Truncated value: '89'.
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 2
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Digite o id da pessoa: 14
+Erro ao alterar pessoa: Pessoa física com id 14 não encontrada.
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 2
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Digite o id da pessoa: 14
+Id: 14
+CNPJ: 22233344455566
+Nome: Companhia do Ferro
+Logradouro: Rua 13, prédio 31, São José
+Cidade: Itabirito
+Estado: MG
+Telefone: 9898-7777  
+Email: companhiadoferro@itabirito.com
+================================
+Digite os novos dados...
+CNPJ: 22233344455566
+Nome: Companhia do Ferro
+Logradouro: Rua 22, prédio 44, Cardoso
+Cidade: Itabirito
+Estado: MG
+Telefone: 8989-6666
+Email: companhia_do_ferro@itabirito.com
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Id: 20
+CNPJ: 11112222333344
+Nome: Companhia da Madeira
+Logradouro: Rua 15, prédio 7, Sapucaeira
+Cidade: Eunápolis
+Estado: BA
+Telefone: 7777-8888  
+Email: companhia_da_madeira@eunapolis.com
+================================
+
+Id: 15
+CNPJ: 22222222222222
+Nome: JJC
+Logradouro: Rua 11, Centro
+Cidade: Riacho do Norte
+Estado: PA
+Telefone: 1212-1212  
+Email: jjc@riacho.com
+================================
+
+Id: 14
+CNPJ: 22233344455566
+Nome: Companhia do Ferro
+Logradouro: Rua 22, prédio 44, Cardoso
+Cidade: Itabirito
+Estado: MG
+Telefone: 8989-6666  
+Email: companhia_do_ferro@itabirito.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 1
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Digite o id da pessoa ou digite 0 se deseja que a id seja inserida automaticamente: 0
+Insira o restante dos dados...
+CNPJ: 12345678901234
+Nome: XPTO
+Logradouro: Rua 0, prédio 1, Centro
+Cidade: Rio de Janeiro
+Estado: RJ
+Telefone: 9090-8080
+Email: xpto@riodejaneiro.com
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Id: 20
+CNPJ: 11112222333344
+Nome: Companhia da Madeira
+Logradouro: Rua 15, prédio 7, Sapucaeira
+Cidade: Eunápolis
+Estado: BA
+Telefone: 7777-8888  
+Email: companhia_da_madeira@eunapolis.com
+================================
+
+Id: 21
+CNPJ: 12345678901234
+Nome: XPTO
+Logradouro: Rua 0, prédio 1, Centro
+Cidade: Rio de Janeiro
+Estado: RJ
+Telefone: 9090-8080  
+Email: xpto@riodejaneiro.com
+================================
+
+Id: 15
+CNPJ: 22222222222222
+Nome: JJC
+Logradouro: Rua 11, Centro
+Cidade: Riacho do Norte
+Estado: PA
+Telefone: 1212-1212  
+Email: jjc@riacho.com
+================================
+
+Id: 14
+CNPJ: 22233344455566
+Nome: Companhia do Ferro
+Logradouro: Rua 22, prédio 44, Cardoso
+Cidade: Itabirito
+Estado: MG
+Telefone: 8989-6666  
+Email: companhia_do_ferro@itabirito.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 4
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Digite o id da pessoa: 21
+Id: 21
+CNPJ: 12345678901234
+Nome: XPTO
+Logradouro: Rua 0, prédio 1, Centro
+Cidade: Rio de Janeiro
+Estado: RJ
+Telefone: 9090-8080  
+Email: xpto@riodejaneiro.com
+================================
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 3
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Digite o id da pessoa: 21
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 4
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Digite o id da pessoa: 21
+Erro ao buscar pessoa: Pessoa jurídica com id 21 não encontrada.
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+j
+Id: 20
+CNPJ: 11112222333344
+Nome: Companhia da Madeira
+Logradouro: Rua 15, prédio 7, Sapucaeira
+Cidade: Eunápolis
+Estado: BA
+Telefone: 7777-8888  
+Email: companhia_da_madeira@eunapolis.com
+================================
+
+Id: 15
+CNPJ: 22222222222222
+Nome: JJC
+Logradouro: Rua 11, Centro
+Cidade: Riacho do Norte
+Estado: PA
+Telefone: 1212-1212  
+Email: jjc@riacho.com
+================================
+
+Id: 14
+CNPJ: 22233344455566
+Nome: Companhia do Ferro
+Logradouro: Rua 22, prédio 44, Cardoso
+Cidade: Itabirito
+Estado: MG
+Telefone: 8989-6666  
+Email: companhia_do_ferro@itabirito.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 5
+F - Pessoa Física | J - Pessoa Jurídica
+f
+Id: 7
+CPF: 11111111111
+Nome: Joao
+Logradouro: Rua 12, casa 3, Quitanda
+Cidade: Riacho do Sul
+Estado: PA
+Telefone: 1111-1111  
+Email: joao@riacho.com
+================================
+
+Id: 8
+CPF: 111222333  
+Nome: Chicó
+Logradouro: Rua 22, casa 12, Engenho
+Cidade: Santa Luzia
+Estado: MG
+Telefone: 2222-3333  
+Email: chico02@santaluzia.com
+================================
+
+Id: 9
+CPF: 333444555  
+Nome: Maria das Graças
+Logradouro: Rua 33, casa 11, Centro
+Cidade: Belém
+Estado: PA
+Telefone: 3300-3300  
+Email: maria_das_gracas@belem.com
+================================
+
+Id: 18
+CPF: 987654321  
+Nome: João Grilo
+Logradouro: Rua 20, casa 10, Palmital
+Cidade: Lagoa Santa
+Estado: MG
+Telefone: 1234-1234  
+Email: joaogrilo@lagoasanta.com
+================================
+
+
+==============================
+1 - Incluir Pessoa
+2 - Alterar Pessoa
+3 - Excluir Pessoa
+4 - Buscar pelo Id
+5 - Exibir Todos
+0 - Finalizar Programa
+==============================
+Digite uma opção (0-5): 0
+Encerrando o programa...
+BUILD SUCCESSFUL (total time: 36 minutes 5 seconds)
