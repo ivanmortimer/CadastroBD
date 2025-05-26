@@ -1,0 +1,92 @@
+run:
+
+Pessoa física instanciada e persistida no banco de dados 'loja':
+Id: 16
+CPF: 123456789  
+Nome: José Silva
+Logradouro: Rua 10, casa 5, Lapinha da Serra
+Cidade: Santana do Riacho
+Estado: MG
+Telefone: 5555-5555  
+Email: josesilva@santana.com
+================================
+
+Pessoa física alterada no banco de dados 'loja':
+Id: 16
+CPF: 123456789  
+Nome: José Silva
+Logradouro: Rua 12, casa 6, Lapinha da Serra
+Cidade: Santana do Riacho
+Estado: MG
+Telefone: 6666-6666  
+Email: jose_silva@santana.com
+================================
+
+Lista de pessoas físicas presentes no banco de dados 'loja':
+Id: 7
+CPF: 11111111111
+Nome: Joao
+Logradouro: Rua 12, casa 3, Quitanda
+Cidade: Riacho do Sul
+Estado: PA
+Telefone: 1111-1111  
+Email: joao@riacho.com
+================================
+Id: 16
+CPF: 123456789  
+Nome: José Silva
+Logradouro: Rua 12, casa 6, Lapinha da Serra
+Cidade: Santana do Riacho
+Estado: MG
+Telefone: 6666-6666  
+Email: jose_silva@santana.com
+================================
+
+Pessoa física 'José Silva' (id: 16) foi excluída com sucesso  do banco de dados 'loja'.
+
+
+Pessoa jurídica instanciada e persistida no banco de dados 'loja':
+Id: 17
+CNPJ: 12345678901234
+Nome: Companhia do Ferro
+Logradouro: Rua 20, prédio 10, Cardoso
+Cidade: Itabirito
+Estado: MG
+Telefone: 7575-7575  
+Email: companhiadoferro@itabirito.com
+================================
+
+Pessoa jurídica alterada no banco de dados 'loja':
+Id: 17
+CNPJ: 12345678901234
+Nome: Companhia do Ferro
+Logradouro: Rua 22, prédio 11, São José
+Cidade: Itabirito
+Estado: MG
+Telefone: 8686-8686  
+Email: companhia_do_ferro@itabirito.com
+================================
+
+Lista de pessoas jurídicas presentes no banco de dados 'loja':
+Id: 17
+CNPJ: 12345678901234
+Nome: Companhia do Ferro
+Logradouro: Rua 22, prédio 11, São José
+Cidade: Itabirito
+Estado: MG
+Telefone: 8686-8686  
+Email: companhia_do_ferro@itabirito.com
+================================
+Id: 15
+CNPJ: 22222222222222
+Nome: JJC
+Logradouro: Rua 11, Centro
+Cidade: Riacho do Norte
+Estado: PA
+Telefone: 1212-1212  
+Email: jjc@riacho.com
+================================
+
+Pessoa jurídica 'Companhia do Ferro' (id: 17) foi excluída com sucesso  do banco de dados 'loja'.
+
+BUILD SUCCESSFUL (total time: 2 seconds)

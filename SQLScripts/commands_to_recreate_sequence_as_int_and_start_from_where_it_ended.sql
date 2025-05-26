@@ -1,3 +1,9 @@
+/*
+ALTER SEQUENCE dbo.Seq_idPessoa
+RESTART WITH 16;
+GO
+*/
+
 DECLARE @constraint_name NVARCHAR(128);
 DECLARE @sql NVARCHAR(300);
 

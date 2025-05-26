@@ -39,6 +39,7 @@ public class CadastroBDTeste1 {
         jose_silva.setTelefone("6666-6666");
         jose_silva.setEmail("jose_silva@santana.com");
         try {
+            pf_dao.alterar(jose_silva);
             System.out.println("\nPessoa física alterada no banco de dados 'loja':");
             PessoaFisica js = pf_dao.getPessoa(jose_silva.getId());
             js.exibir();
@@ -91,6 +92,7 @@ public class CadastroBDTeste1 {
         companhia_do_ferro.setTelefone("8686-8686");
         companhia_do_ferro.setEmail("companhia_do_ferro@itabirito.com");
         try {
+            pj_dao.alterar(companhia_do_ferro);
             System.out.println("\nPessoa jurídica alterada no banco de dados 'loja':");
             PessoaJuridica cdf = pj_dao.getPessoa(companhia_do_ferro.getId());
             cdf.exibir();
